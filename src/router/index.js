@@ -68,9 +68,9 @@ export const constantRoutes = [
         meta: { title: '城市数据总揽', icon: 'table' }
       },
       {
-        path: 'input',
-        name: 'Input',
-        component: () => import('@/views/city/input'),
+        path: 'edit',
+        name: 'Edit',
+        component: () => import('@/views/city/edit'),
         meta: { title: '城市数据录入', icon: 'tree' }
       }
     ]
@@ -96,7 +96,7 @@ export const constantRoutes = [
       }
     ]
   },
- 
+
   {
     path: '/form',
     component: Layout,
